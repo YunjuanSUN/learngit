@@ -32,7 +32,8 @@ Git has a mutable index called stage.
 //在本地的仓库下运行命令关联一个远程库
 git remote add origin git@github.com:github_name/repository_name.git
 //把本地库的所有内容推送到远程库上
-git push -u origin master
+git branch -M main
+git push -u origin main
 //解除了本地和远程的绑定关系
 git remote rm origin
 
